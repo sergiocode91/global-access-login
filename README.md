@@ -1,10 +1,10 @@
 # Global Access Login | Pixel-Perfect UI 🚀
 
-![Preview Image](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200)
+![Preview Image](cover.png)
 
 A modern, minimalist authentication interface designed with a **pixel-perfect** approach. This project focuses on delivering a seamless user experience combined with a premium aesthetic from the very first interaction.
 
-[**Live Demo**](https://sergiocode.dev/)
+[**Live Demo**](https://global-access-login.vercel.app/)
 
 ---
 
@@ -45,7 +45,7 @@ This project is built to be lightweight and doesn't require complex servers or p
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/modern-auth-interface.git
+    git clone https://github.com/sergiocode91/global-access-login.git
     ```
 2.  **Open the file:**
     Simply drag and drop `index.html` into your preferred browser or use the *Live Server* extension in VS Code.
