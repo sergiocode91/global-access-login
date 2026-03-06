@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
 </head>
 <body class="antialiased">
-  <div class="flex items-center justify-center h-screen bg-gray-950">
-    <div class="flex justify-between w-full max-w-[1150px] h-[750px] p-3 gap-2 rounded-[2.5rem] bg-white">
-      <div class="w-1/2 overflow-hidden rounded-[2rem] bg-gray-900 relative">
+  <div class="flex items-center justify-center min-h-screen bg-gray-950 p-4 lg:p-0">
+    <div class="flex justify-between w-full max-w-[1150px] min-h-[600px] lg:h-[750px] p-2 lg:p-3 gap-2 rounded-[2rem] lg:rounded-[2.5rem] bg-white relative">
+      <div class="hidden lg:block w-1/2 overflow-hidden rounded-[2rem] bg-gray-900 relative">
         <img 
           src="https://images.unsplash.com/photo-1451187580459-43490279c0fa" 
           class="w-full h-full object-cover inset-0 absolute"
@@ -41,16 +41,16 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col w-1/2 p-8">
-        <div class="flex items-center justify-between">
-          <div class="font-black text-xl text-gray-900 tracking-tighter uppercase">Welcome</div>
+      <div class="flex flex-col w-full lg:w-1/2 p-6 lg:p-8">
+        <div class="flex items-center justify-end lg:justify-between">
+          <div class="hidden lg:block font-black text-xl text-gray-900 tracking-tighter uppercase">Welcome</div>
           <button class="flex items-center font-bold text-[11px] text-gray-700 px-4 py-2 gap-2 transition-colors shadow-sm rounded-full border border-gray-200 bg-white hover:bg-gray-50">
             🇬🇧 EN <i data-lucide="chevron-down" class="w-3 h-3 text-gray-400"></i>
           </button>
         </div>
         <div class="flex-1 flex flex-col items-center justify-center w-full max-w-[360px] mx-auto">
           <div class="font-black text-4xl text-gray-900 tracking-tighter mb-5">Get Started</div>
-          <p class="font-semibold text-sm text-gray-500 mb-12">Let's start your journey</p>
+          <p class="font-semibold text-sm text-gray-500 mb-8 lg:mb-12">Let's start your journey</p>
           <input 
             type="email" 
             placeholder="Email" 
@@ -83,7 +83,7 @@
             Don't have an account? <a href="#" class="font-bold text-orange-600">Sign up</a>
           </p>
         </div>
-        <div class="flex justify-center text-gray-600 gap-7 mt-auto pb-2">
+        <div class="flex justify-center text-gray-600 gap-7 mt-12 lg:mt-auto pb-2">
           <a href="#" class="hover:text-gray-900 transition-colors">
             <i data-lucide="facebook" class="w-[18px] h-[18px] fill-current"></i>
           </a>
@@ -96,7 +96,7 @@
         </div>
       </div>
     </div>
-    <a href="https://sergiocode.dev/" target="_blank" class="flex items-center font-bold text-[10px] text-neutral-700 gap-2 tracking-widest uppercase transition-all hover:text-neutral-50 duration-300 bottom-10 absolute group">
+    <a href="https://sergiocode.dev/" target="_blank" class="flex items-center font-bold text-[10px] text-neutral-500 lg:text-neutral-700 gap-2 tracking-widest uppercase transition-all hover:text-neutral-50 duration-300 bottom-4 lg:bottom-10 absolute group">
       <img src="logo.svg" class="w-5 h-5 opacity-40 transition-opacity group-hover:opacity-100">
       <span>© 2026 Developed by Sergio</span>
     </a>
